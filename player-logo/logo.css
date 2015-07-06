@@ -1,0 +1,16 @@
+.vjs-logo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  right: 5px;
+  top: 5px;
+  transition:top 0.5s;
+}
+.vjs-has-started.vjs-user-inactive .vjs-logo.hide-inactive {
+  top: -30px;
+  transition:top 0.5s 3s;
+}
+.vjs-logo.clickable {
+  cursor: pointer;
+}
